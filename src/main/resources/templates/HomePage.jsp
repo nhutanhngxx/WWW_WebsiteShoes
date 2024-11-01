@@ -22,7 +22,7 @@
 </style>
 <body>
 <div th:replace="header :: Header"></div>
-<img src="https://i.ibb.co/Fm775G7/Maskgroup.png" height="30%" width="100%">
+<img src="https://i.ibb.co/Fm775G7/Maskgroup.png" height="30%" width="100%" style="padding-bottom: 150px">
 <div th:replace="footer :: Footer"></div>
 </body>
 </html>

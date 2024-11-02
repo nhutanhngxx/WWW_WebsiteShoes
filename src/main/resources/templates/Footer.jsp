@@ -26,7 +26,7 @@
             background: transparent;
             border-color: #FFFFFF;
             height: 50px;
-            width: 60%;
+            width: 70%;
             border-radius: 25px;
             padding: 0 10px;
             color: #FFFFFF;
@@ -62,14 +62,15 @@
             display: flex;
             flex-direction: column;
             justify-content: space-between;
-            padding: 0;
+            padding: 20px 0;
             gap: 20px;
         }
         .menu-contact ul {
             list-style-type: none;
             display: flex;
-            justify-content: space-between;
-            padding: 0;
+            gap: 30px;
+            /*justify-content: space-between;*/
+            padding: 20px 0;
         }
         .menu-support ul li a, .menu-contact ul li a {
             color: #9D9EA2;
@@ -80,6 +81,7 @@
             color: #FFFFFF;
         }
     </style>
+
     <div class="discount-form">
         <div>
             <p style="color: #FCC84E; font-size: 50px; font-weight: bold">GIẢM GIÁ 20%</p>
@@ -89,7 +91,8 @@
         <div>
             <form style="justify-content: space-between; width: 100%; padding: 20px 0; display: flex" >
                 <input class="input-email" type="text" placeholder="Nhập địa chỉ email của bạn tại đây..." required>
-                <button type="submit" class="button-code">Nhận phiếu giảm giá</button>
+                <button type="submit" class="btn btn-success btn-block button-code">Nhận phiếu giảm giá</button>
+
             </form>
         </div>
     </div>
@@ -132,7 +135,7 @@
             &copy; 2024 My Application. All rights reserved.
         </div>
         <div class="rights-list">
-            <ul style="list-style-type: none; display: flex; gap: 30px ">
+            <ul style="list-style-type: none; display: flex; gap: 30px">
                 <li><a href="#">Out Of Stock</a></li>
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Terms & Conditions</a></li>

@@ -23,4 +23,8 @@ public class ViewController {
     public String showOrderCompletedPage() {
         return "OrderCompleted";
     }
+    @GetMapping("/Categories")
+    public String showCategories() {return "Categories";}
+    @GetMapping("/Product")
+    public String showProduct() {return "ProductPage";}
 }

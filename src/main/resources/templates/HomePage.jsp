@@ -513,10 +513,10 @@
                                 </div> |
                                 <p><strong>135</strong> Reviewers</p>
                             </div>
-                            <p style="background-color: #F2F6F4;border-radius: 10px;width: 100px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
+                            <p style="background-color: #F2F6F4;border-radius: 10px;width: 120px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
                             <div style="display: flex;justify-content: space-around">
                                 <p style="text-decoration: line-through;">2.000.000 vnđ</p>
-                                <h4 style="color: red">1.499.000 vnđ</h4>
+                                <h4 style="color: red;font-size: larger;">1.499.000 vnđ</h4>
                             </div>
                             <div style="display: flex; justify-content: space-around">
                                 <p style="background-color: #F2F6F4;border-radius: 10px;width: 40px;padding: 5px 10px;">X</p>
@@ -541,10 +541,10 @@
                                 </div> |
                                 <p><strong>135</strong> Reviewers</p>
                             </div>
-                            <p style="background-color: #F2F6F4;border-radius: 10px;width: 100px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
+                            <p style="background-color: #F2F6F4;border-radius: 10px;width:  120px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
                             <div style="display: flex;justify-content: space-around">
                                 <p style="text-decoration: line-through;">2.000.000 vnđ</p>
-                                <h4 style="color: red">1.499.000 vnđ</h4>
+                                <h4 style="color: red;font-size: larger;">1.499.000 vnđ</h4>
                             </div>
                             <div style="display: flex; justify-content: space-around">
                                 <p style="background-color: #F2F6F4;border-radius: 10px;width: 40px;padding: 5px 10px;">X</p>
@@ -569,10 +569,10 @@
                                 </div> |
                                 <p><strong>135</strong> Reviewers</p>
                             </div>
-                            <p style="background-color: #F2F6F4;border-radius: 10px;width: 100px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
+                            <p style="background-color: #F2F6F4;border-radius: 10px;width:  120px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
                             <div style="display: flex;justify-content: space-around">
                                 <p style="text-decoration: line-through;">2.000.000 vnđ</p>
-                                <h4 style="color: red">1.499.000 vnđ</h4>
+                                <h4 style="color: red;font-size: larger;">1.499.000 vnđ</h4>
                             </div>
                             <div style="display: flex; justify-content: space-around">
                                 <p style="background-color: #F2F6F4;border-radius: 10px;width: 40px;padding: 5px 10px;">X</p>
@@ -597,10 +597,10 @@
                                 </div> |
                                 <p><strong>135</strong> Reviewers</p>
                             </div>
-                            <p style="background-color: #F2F6F4;border-radius: 10px;width: 100px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
+                            <p style="background-color: #F2F6F4;border-radius: 10px;width:  120px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
                             <div style="display: flex;justify-content: space-around">
                                 <p style="text-decoration: line-through;">2.000.000 vnđ</p>
-                                <h4 style="color: red">1.499.000 vnđ</h4>
+                                <h4 style="color: red;font-size: larger;">1.499.000 vnđ</h4>
                             </div>
                             <div style="display: flex; justify-content: space-around">
                                 <p style="background-color: #F2F6F4;border-radius: 10px;width: 40px;padding: 5px 10px;">X</p>
@@ -625,10 +625,10 @@
                                 </div> |
                                 <p><strong>135</strong> Reviewers</p>
                             </div>
-                            <p style="background-color: #F2F6F4;border-radius: 10px;width: 100px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
+                            <p style="background-color: #F2F6F4;border-radius: 10px;width:  120px;margin: 0 auto;text-align: center;padding: 5px 10px" >Sativa 100%</p>
                             <div style="display: flex;justify-content: space-around">
                                 <p style="text-decoration: line-through;">2.000.000 vnđ</p>
-                                <h4 style="color: red">1.499.000 vnđ</h4>
+                                <h4 style="color: red;font-size: larger;">1.499.000 vnđ</h4>
                             </div>
                             <div style="display: flex; justify-content: space-around">
                                 <p style="background-color: #F2F6F4;border-radius: 10px;width: 40px;padding: 5px 10px;">X</p>

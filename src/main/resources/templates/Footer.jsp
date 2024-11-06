@@ -99,7 +99,7 @@
 
     <div class="content-footer">
         <div style="flex-direction: column; align-items: center">
-            <img src="https://i.ibb.co/MNfcyjg/Logo.png" width="200" height="200" alt="Logo">
+            <img src="https://i.ibb.co/jHLKZG0/Logo.png" alt="Logo" width="300" height="300">
             <div style="text-align: justify">
                 <p style="color: #9D9EA2">Cửa hàng trực tuyến được đánh giá cao nhất của Việt Nam đáp ứng nhu cầu của khách hàng trong mọi khía cạnh thời trang. Chúng tôi nỗ lực cung cấp các sản phẩm, dịch vụ và chăm sóc chất lượng hàng đầu với mức giá thấp nhất mà bạn từng thấy.</p>
             </div>

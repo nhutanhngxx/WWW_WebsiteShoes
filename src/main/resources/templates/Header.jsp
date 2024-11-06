@@ -14,7 +14,7 @@
             color: #17AF26;
         }
         .menu-header ul li a {
-            font-weight: bold;
+            font-size: 16px;
         }
         .promotion {
             display: flex;
@@ -31,6 +31,16 @@
             align-items: center;
             padding: 0 30px
         }
+        .btn-sign {
+            font-size: 18px;
+            color: #000000;
+            font-weight: bold;
+            transition: color 0.1s ease, font-weight 0.1s ease;
+        }
+        .btn-sign:hover {
+            color: #17AF26;
+            font-weight: bold;
+        }
     </style>
     <div class="promotion">
         <p style="color: #FFFFFF; opacity: 70%">ƯU ĐÃI CÓ GIỚI HẠN: GIẢM GIÁ 30%. Dùng mã AHC30 khi Thanh toán.</p>
@@ -39,20 +49,24 @@
     <div class="logo-search-account">
         <form method="get" action="/AHC_Shoes/HomePage">
             <button class="border-0 bg-transparent" type="submit">
-                <img src="https://i.ibb.co/MNfcyjg/Logo.png" width="40" height="40" alt="Logo">
+                <img src="https://i.ibb.co/dWJ8p6q/Banner.png" alt="Banner" height="70px">
             </button>
         </form>
         <div class="search">
-            <input type="search" placeholder="Tìm kiếm tại đây..." class="rounded-pill p-2" style="width: 400px; height: 40px">
+            <input type="search" placeholder="Tìm kiếm tại đây..." class="border rounded-pill p-3" style="width: 400px; height: 40px">
             <button class="btn btn-success rounded-pill" style="width: 40px; height: 40px; margin-left: 20px"><i class="bi bi-search"></i></button>
         </div>
-        <div style="display: flex; gap: 20px">
-            <div class="account">
-                <a style="text-decoration: none" href="#">Đăng nhập</a> |
-                <a style="text-decoration: none" href="#">Đăng ký</a>
+        <div class="d-flex justify-content-center align-items-center gap-3">
+            <div class="d-flex gap-3">
+                <form method="get" action="/AHC_Shoes/SignIn">
+                    <button class="border-0 bg-transparent btn-sign" type="submit">ĐĂNG NHẬP</button>
+                </form>
+                <form method="get" action="/AHC_Shoes/SignUp">
+                    <button class="border-0 bg-transparent btn-sign" type="submit">ĐĂNG KÝ</button>
+                </form>
             </div>
             <form method="get" action="/AHC_Shoes/Cart" class="cart">
-                <button class="border-0 bg-transparent" type="submit"><i class="bi bi-cart3"></i></button>
+                <button class="border-0 bg-transparent" style="font-size: 20px" type="submit"><i class="bi bi-cart3"></i></button>
             </form>
         </div>
     </div>

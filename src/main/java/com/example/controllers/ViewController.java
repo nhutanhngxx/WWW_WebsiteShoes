@@ -23,4 +23,12 @@ public class ViewController {
     public String showOrderCompletedPage() {
         return "OrderCompleted";
     }
+    @GetMapping("/SignIn")
+    public String showSignInPage() {
+        return "SignIn";
+    }
+    @GetMapping("/SignUp")
+    public String showSignUpPage() {
+        return "SignUp";
+    }
 }

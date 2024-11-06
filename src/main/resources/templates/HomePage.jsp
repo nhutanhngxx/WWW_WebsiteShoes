@@ -5,6 +5,7 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<%--    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">--%>
     <style>
         body{
             padding: 0;
@@ -415,6 +416,160 @@
         }
         .mainFillterProduct .mainFillterProduct-detail .container .product-card .product-details .add-to-cart:hover {
             background-color: #45a049;
+        }
+        .mainHowtoOrder {
+            /*background-color: ;*/
+            background: linear-gradient(to right, #01100B 45%,#01100B 55%, #F2BC1B );
+            color: white;
+            margin-top: 200px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Make the container full height */
+            padding: 50px 0;
+        }
+        .mainHowtoOrder .referral-section {
+            background: linear-gradient(to right, #05422C 40%, #05422C 50%, #F2BC1B 130%);
+            padding: 20px;
+            color: #fff;
+            border-radius: 10px;
+            text-align: center;
+            width: 100%;
+            max-width: 600px;
+            position: absolute;
+            top: -5%; /* Adjust this value to control the vertical positioning */
+            left: 50%;
+            transform: translate(-50%, -10%);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow effect to make it appear elevated */
+            z-index: 1; /* Ensures the section is on top */
+            align-content: center;
+            height: 200px;
+
+        }
+        .mainHowtoOrder .referral-section .referral-section-container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .mainHowtoOrder .referral-section .referral-section-container h2 {
+            font-size: 1.8rem;
+            margin: 0;
+        }
+        .mainHowtoOrder .referral-section .referral-section-container p {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .mainHowtoOrder .referral-section .referral-section-container .btn {
+            background-color: #17AF26;
+            border: none;
+            margin-top: 10px;
+            height: 40px;
+            color: white;
+            border-radius: 30px;
+        }
+        .mainHowtoOrder  .how-to-order-section h2 {
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 50px;
+            margin-top: 150px;
+        }
+        .mainHowtoOrder .how-to-order-section .step {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .mainHowtoOrder .how-to-order-section .text-content-order{
+            width: 50%;
+            height: 100px;
+            margin: 30px auto;
+        }
+        .mainHowtoOrder .how-to-order-section .text-content-order p{
+            text-align: center;
+        }
+        .mainHowtoOrder .how-to-order-section .how-to-order{
+            padding: 20px;
+            text-align: center;
+        }
+        .mainHowtoOrder .how-to-order-section .how-to-order .row {
+            display: flex;
+            justify-content: center; /* Center the columns horizontally within the row */
+        }
+        .mainHowtoOrder .how-to-order-section .how-to-order .row .step .icon {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #ffc107;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .mainHowtoOrder .how-to-order-section .how-to-order .row .step h5 {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .mainHowtoOrder .how-to-order-section .btn-order-now {
+            background-color:#17AF26;
+            color: white;
+            border-radius: 30px;
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+        .mainHowtoOrder .how-to-order-section .btn-order-now:hover {
+            background-color: #0e6e18;
+        }
+        .mainHowtoOrder .how-to-order-section .how-to-order .row .step .span{
+            background-color:#ffc107 ;
+            border-radius: 50px;
+            width: 40px;
+            height: 40px;
+            color: #05422C;
+            font-size: 25px;
+            text-align: center;
+        }
+        .mainContent-Service{
+            padding: 80px;
+
+        }
+        .mainContent-Service .title h1{
+            font-size: 56px;
+            margin-bottom: 50px;
+        }
+        .mainContent-Service .title{
+            margin-bottom: 50px;
+        }
+        .mainContent-Service .mainContent-Service-row .col{
+            width: 379px;
+            height: 354px;
+            border-radius: 10px;
+            border: 1px solid #717378;
+            margin: 10px;
+            padding: 20px;
+        }
+        .mainContent-Service .mainContent-Service-row .col p{
+            color: #717378;
+        }
+        .mainFooter{
+            padding: 80px;
+        }
+        .mainFooter .col-sm{
+            width: 379px;
+            height: 656px;
+            text-align: center;
+            border: 1px solid #F4F4F4;
+            margin: 10px;
+            border-radius: 10px;
+            padding: 20px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .mainFooter .col-sm a {
+            color: #17AF26;
+            text-decoration: underline;
+
+        }
+        .mainFooter .col-sm p{
+            text-align: left;
+            font-size: 14px;
+            color: #717378;
         }
     </style>
 </head>
@@ -1002,6 +1157,253 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainHowtoOrder">
+        <div class="referral-section">
+           <div class="referral-section-container ">
+               <div>
+                   <h2>GIỚI THIỆU BẠN BÈ</h2>
+                   <p>Nhận đến <span style="color:#F2BC1B; font-weight: bold;">100.000 vnd</span></p>
+               </div>
+               <button class="btn btn-light">Tham khảo tại đây</button>
+           </div>
+        </div>
+        <div class="how-to-order-section">
+            <h2>CÁCH ĐẶT HÀNG TRỰC TUYẾN</h2>
+            <div class="text-content-order">
+                <p>Đặt mua giày trực tuyến từ GiaoHangTietKiem rất dễ dàng. AHC SHOES tự hào đã làm cho quy trình này dễ tiếp cận trên nhiều nền tảng và dễ hiểu, nghĩa là nhiều người có thể đến với chúng tôi để mua sản phẩm trực tuyến.</p>
+            </div>
+            <div class="how-to-order">
+                <div class="row">
+                    <div class="col-md-3 step">
+                        <div class="icon">
+                            <div class="span"><p>1</p></div>
+                            <img src="https://i.ibb.co/W2Gq6Gg/healthicons-health-worker-form-outline.png" >
+                        </div>
+                        <h5>ĐĂNG KÝ</h5>
+                        <p>Đăng ký tài khoản để nhận ưu đãi và dễ dàng quản lý thông tin.</p>
+                    </div>
+                    <div class="col-md-3 step">
+                        <div class="icon">
+                            <div class="span"><p>2</p></div>
+                            <img src="https://i.ibb.co/4RdRzPz/fluent-shopping-bag-tag-20-regular.png" >
+                        </div>
+                        <h5>CỬA HÀNG</h5>
+                        <p>Chọn sản phẩm yêu thích tại cửa hàng và thêm vào giỏ hàng.</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-3 step">
+                        <div class="icon">
+                            <div class="span"><p>3</p></div>
+                            <img src="https://i.ibb.co/4RdRzPz/fluent-shopping-bag-tag-20-regular.png" >
+                        </div>
+                        <h5>THỰC HIỆN THANH TOÁN</h5>
+                        <p>Thanh toán đơn hàng nhanh chóng, đảm bảo an toàn.</p>
+                    </div>
+                    <div class="col-md-3 step">
+                        <div class="icon">
+                            <div class="span"><p>4</p></div>
+                            <img src="https://i.ibb.co/18YZdN2/ph-circle-wavy-check-light.png" >
+                        </div>
+                        <h5>AN TÂM</h5>
+                        <p>Yên tâm về chất lượng sản phẩm và dịch vụ.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <button class="btn btn-order-now">Chọn giày ngay bây giờ</button>
+            </div>
+        </div>
+    </div>
+    <div class="mainContent-Service">
+        <div class="title">
+            <h1>ĐIỀU GÌ KHIẾN CHÚNG TÔI TRỞ THÀNH NHÀ BÁN GIÀY TRỰC TUYẾN <span style="color: #CECE1E;">#1</span>
+                TẠI VIỆT NAM?</h1>
+            <p>Khi nói đến điều khiến chúng tôi trở thành cửa hàng giày trực tuyến hàng đầu tại Việt Nam, chúng tôi có thể tự hào về những phẩm chất tích cực của mình. Thay vào đó, để làm rõ thông tin này, chúng tôi đã nêu bật 6 tính năng ưu tiên mà chúng tôi cảm thấy khiến chúng tôi vượt trội hơn hẳn so với phần còn lại.</p>
+        </div>
+        <div class="row mainContent-Service-row">
+            <div class="col">
+                <img src="https://i.ibb.co/t3qV5m0/Icon.png">
+                <h4>DỊCH VỤ KHÁCH HÀNG
+                </h4>
+                <p>Cho dù là trả lời bất kỳ câu hỏi nào bạn có trước khi mua hàng, hỗ trợ quá trình mua hàng hay xem xét phản hồi của bạn, chúng tôi tự hào cung cấp dịch vụ khách hàng chất lượng cao giúp bạn - khách hàng - trở thành người quan trọng nhất trong giao dịch.</p>
+            </div>
+            <div class="col">
+                <img src="https://i.ibb.co/c193hhh/Icon-1.png">
+                <h4>BẢO MẬT</h4>
+                <p>Khi nói đến bảo mật, chúng tôi chỉ giữ những thông tin chi tiết cần thiết để bạn có tài khoản với chúng tôi và đặt hàng. Khi nói đến việc vận chuyển giày thể thao theo đơn đặt hàng qua thư của bạn, chúng tôi chỉ sử dụng bao bì chống giả mạo và kín đáo để những gì bạn đã mua chỉ là việc của bạn.</p>
+            </div>
+            <div class="col">
+                <img src="https://i.ibb.co/RhXGbT0/Icon-2.png">
+                <h4>GIÁ TRỊ TỐT NHẤT
+                </h4>
+                <p>Chúng tôi liên tục điều chỉnh những gì chúng tôi cung cấp và giá cả của chúng tôi để đảm bảo rằng chúng tôi duy trì sự cân bằng tối ưu giữa giá cả phải chăng và chất lượng cho các sản phẩm của mình. Chúng tôi đầu tư vào các chủng loại chất lượng tốt nhất mà chúng tôi có thể tìm thấy và luôn tìm kiếm các sản phẩm giày thể thao mới, giá cả phải chăng và chất lượng cao.</p>
+
+            </div>
+            <div class="w-100"></div>
+            <div class="col">
+                <img src="https://i.ibb.co/LtbKk7c/Icon-3.png">
+                <h4>BẢO HIỂM GIAO HÀNG
+                </h4>
+                <p>Nếu đơn hàng giày qua thư của bạn bị mất, bị đánh cắp hoặc bị hư hỏng trong quá trình vận chuyển, chúng tôi sẽ gửi cho bạn một đơn hàng thay thế hoàn toàn miễn phí. Miễn phí vận chuyển GiaoHangTietKiem cho tất cả các đơn hàng trên 199.000 vnđ.</p>
+
+            </div>
+            <div class="col">
+                <img src="https://i.ibb.co/vPyYMmY/Icon-4.png">
+                <h4>CHẤT LƯỢNG CAO NHẤT
+                </h4>
+                <p>Tất cả các sản phẩm giày thể thao của chúng tôi đều được thử nghiệm để đảm bảo rằng chúng có chất lượng cao nhất có thể. Chúng tôi làm việc với các nhà cung cấp chuyên nghiệp và luôn xem xét lại những gì tạo nên một sản phẩm giày thể thao chất lượng để đảm bảo rằng chúng tôi chỉ có những sản phẩm tốt nhất.</p>
+
+            </div>
+            <div class="col">
+                <img src="https://i.ibb.co/f4Yfx16/Icon-5.png">
+                <h4>TIN TƯỞNG</h4>
+                <p>Với hơn 15 năm trong ngành kinh doanh giày thể thao, bạn có thể yên tâm rằng bạn sẽ được chăm sóc. Bạn có thể đảm bảo rằng chúng tôi luôn quan tâm đến lợi ích tốt nhất của bạn. Hãy thoải mái xem qua các đánh giá của chúng tôi.</p>
+
+            </div>
+        </div>
+    </div>
+    <div class="mainFillterProduct">
+        <h1>SẢN PHẨM MỚI</h1>
+        <div class="mainFillterProduct-tabs">
+            <nav class="nav nav-pills flex-column flex-sm-row ">
+                <h3>Lọc theo sở thích</h3>
+                <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="#">Cổ thấp</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Cổ cao</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Chất liệu vải</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Chất liệu da</a>
+                <a class="flex-sm-fill text-sm-center nav-link" href="#">Tất cả giày</a>
+            </nav>
+        </div>
+        <div class="mainFillterProduct-detail">
+            <div class="container" style="display: flex ;flex-direction: column !important;">
+                <div class="row align-items-start">
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="image-container">
+                                <img src="https://i.ibb.co/8XLWRKY/Giay01-1.png" alt="Product Image" class="product-image">
+                                <div class="out-of-stock">Out Of Stock</div>
+                            </div>
+                            <div class="product-details">
+                                <h3 class="category">CONCENTRATES</h3>
+                                <h2 class="product-name">Giày thể thao Ver 01</h2>
+                                <div class="rating">
+                                    <span class="star">⭐ 4.6/5</span>
+                                    <span class="reviews">| 135 Đánh giá</span>
+                                </div>
+                                <div class="tag">Indica 70%</div>
+                                <div class="price">
+                                    <span class="original-price">$200.00</span>
+                                    <span class="discount-price">$102.00</span>
+                                </div>
+                                <div class="size-options">
+                                    <button>28g</button>
+                                    <button>1/2lb</button>
+                                    <button>1/4lb</button>
+                                </div>
+                                <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="image-container">
+                                <img src="https://i.ibb.co/8XLWRKY/Giay01-1.png" alt="Product Image" class="product-image">
+                                <div class="out-of-stock">Out Of Stock</div>
+                            </div>
+                            <div class="product-details">
+                                <h3 class="category">CONCENTRATES</h3>
+                                <h2 class="product-name">Giày thể thao Ver 01</h2>
+                                <div class="rating">
+                                    <span class="star">⭐ 4.6/5</span>
+                                    <span class="reviews">| 135 Đánh giá</span>
+                                </div>
+                                <div class="tag">Indica 70%</div>
+                                <div class="price">
+                                    <span class="original-price">$200.00</span>
+                                    <span class="discount-price">$102.00</span>
+                                </div>
+                                <div class="size-options">
+                                    <button>28g</button>
+                                    <button>1/2lb</button>
+                                    <button>1/4lb</button>
+                                </div>
+                                <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="product-card">
+                            <div class="image-container">
+                                <img src="https://i.ibb.co/8XLWRKY/Giay01-1.png" alt="Product Image" class="product-image">
+                                <div class="out-of-stock">Out Of Stock</div>
+                            </div>
+                            <div class="product-details">
+                                <h3 class="category">CONCENTRATES</h3>
+                                <h2 class="product-name">Giày thể thao Ver 01</h2>
+                                <div class="rating">
+                                    <span class="star">⭐ 4.6/5</span>
+                                    <span class="reviews">| 135 Đánh giá</span>
+                                </div>
+                                <div class="tag">Indica 70%</div>
+                                <div class="price">
+                                    <span class="original-price">$200.00</span>
+                                    <span class="discount-price">$102.00</span>
+                                </div>
+                                <div class="size-options">
+                                    <button>28g</button>
+                                    <button>1/2lb</button>
+                                    <button>1/4lb</button>
+                                </div>
+                                <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="row mainFooter">
+        <div class="col-sm ">
+            <div>
+                <img src="https://i.ibb.co/SxdG7Fq/Photo.png">
+            </div>
+            <div style="padding: 0 20px">
+                <h2>Indica</h2>
+                <p>This type of cannabis is commonly taken by those who want to sink into a state of total relaxation in every limb. This reduces stress overall and can take your worries and fatigue away. Because of its relaxing effects, it is suggested to use this type of cannabis at night. It is particularly recommended for people who have trouble sleeping, be it due to insomnia, pain or other associated sleep issues.</p>
+            </div>
+            <div style="text-align: justify;padding: 0 20px;">
+                <a href="#">Shop Indica</a>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div>
+                <img src="https://i.ibb.co/QYqTxPP/Photo-1.png">
+            </div>
+            <div style="padding: 0 20px">
+                <h2>Sativa</h2>
+                <p>Contrary to the deep all-body relaxation that comes with the use of indica strains, sativas are known for increasing the feeling of creativity, enhancing focus and lessening anxiety. This is more of a mind-centered high in terms of how and where you will feel the effects. Given its stimulating nature, it is recommended to use this during the day.</p>
+            </div>
+            <div style="text-align: justify;padding: 0 20px;">
+                <a href="#">Sativa</a>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div>
+                <img src="https://i.ibb.co/xz71yMb/Photo-2.png">
+            </div>
+            <div style="padding: 0 20px">
+                <h2>Hybrids</h2>
+                <p>Hybrid strains are just that – they combine the head-focused high effects of sativas with the bodily relaxation of indicas. This is ideal for people who really want to sooth any fatigue and worries while also clearing the mind ready to focus fresh on something new. Hybrids are expertly tailored to result in strains with specific effects. Useful strain vocabulary to familiarize yourself with when it comes to hybrids includes sativa-dominant (full, bodily relaxation), indica-dominant (boosting creativity, increasing mood and lessening anxiety) and balanced (the best of both worlds).</p>
+            </div>
+            <div style="text-align: justify;padding: 0 20px">
+                <a href="#">Shop Hybrids</a>
             </div>
         </div>
     </div>

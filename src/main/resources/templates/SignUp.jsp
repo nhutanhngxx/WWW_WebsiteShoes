@@ -12,8 +12,8 @@
         margin: 0;
         font-family: "Aptos", serif;
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
         min-height: 100vh;
     }
     a {
@@ -41,27 +41,27 @@
 </style>
 
 <body class="background-image">
-<div class="container-fluid rounded-3 p-5 d-flex flex-column align-items-center">
+<div class="rounded-3 d-flex flex-column align-items-center">
     <img src="https://i.ibb.co/F6zLMYX/Banner-Sign.png" alt="Banner-Sign" height="700px">
 </div>
     <div class="container-fluid rounded-3 p-5 d-flex flex-column align-items-center">
 
         <h1 class="pb-3 pt-3 fw-bold">ĐĂNG KÝ TÀI KHOẢN</h1>
         <form class="d-flex flex-column gap-2 w-100">
-            <div class="d-flex justify-content-between container-fluid px-0">
-                <div class="container-fluid px-0">
+            <div class="d-flex justify-content-between container-fluid px-0 gap-3">
+                <div class="container-fluid px-0 ">
                     <h5>Username *</h5>
-                    <input class="border rounded-3 p-3" style="height: 40px" placeholder="Nhập Username..." type="text" required>
+                    <input class="border rounded-3 p-3 w-100" style="height: 40px" placeholder="Nhập Username..." type="text" required>
                 </div>
-                <div class="container-fluid">
+                <div class="container-fluid px-0">
                     <h5>Họ và Tên *</h5>
                     <input class="border rounded-3 p-3 w-100" style="height: 40px" placeholder="Nhập Họ và Tên..." type="text" required>
                 </div>
             </div>
-            <div class="d-flex justify-content-between container-fluid px-0">
+            <div class="d-flex justify-content-between container-fluid px-0 gap-3">
                 <div class="container-fluid px-0">
                     <h5>Ngày sinh *</h5>
-                    <input class="border rounded-3 p-3" style="height: 40px" type="date" required>
+                    <input class="border rounded-3 p-3 w-100" style="height: 40px" type="date" required>
                 </div>
                 <div class="container-fluid px-0">
                     <h5>Số điện thoại *</h5>
@@ -69,10 +69,10 @@
                 </div>
             </div>
             <h5>Email *</h5>
-            <input class="border rounded-3 p-3" style="height: 40px" placeholder="Nhập địa chỉ email..."
+            <input class="container-fluid border rounded-3 p-3" style="height: 40px" placeholder="Nhập địa chỉ email..."
                    type="email" required>
             <h5>Mật khẩu *</h5>
-            <input class="border rounded-3 p-3" style="height: 40px" type="password" name="password"
+            <input class="container-fluid border rounded-3 p-3" style="height: 40px" type="password" name="password"
                    placeholder="Nhập Mật khẩu..." required>
             <div class="d-flex justify-content-between align-items-center pt-4" method="get" action="/AHC_Shoes/SignIn">
                 <div>

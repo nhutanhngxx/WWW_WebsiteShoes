@@ -8,7 +8,7 @@
 
     <style>
         body {
-            padding: 0 15%;
+            padding: 0 25%;
             margin: 0;
             font-family: "Aptos", serif;
             display: flex;
@@ -68,7 +68,7 @@
                 <button class="btn fw-bold" style="height: 40px" type="submit">Quay về trang chủ</button>
             </form>
         </div>
-        <div class="container-fluid rounded-3 p-5 d-flex flex-column align-items-center">
+        <div class="rounded-3 d-flex flex-column align-items-center">
             <img src="https://i.ibb.co/F6zLMYX/Banner-Sign.png" alt="Banner-Sign" height="700px">
         </div>
     </body>

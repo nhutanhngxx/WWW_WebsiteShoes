@@ -9,7 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <style>
-    p, h5 {
+    p {
+        margin: 0;
+        padding: 0;
+    }
+    h6 {
         margin: 0;
         padding: 0;
     }
@@ -17,8 +21,15 @@
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 100%;
-        height: 50px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .user-info {
+        justify-content: center;
+    }
+    .bi-person-circle {
+        font-size: 3rem;
+        color: #007bff;
     }
     .container-fluid {
         width: 100%;
@@ -37,7 +48,7 @@
     <div class="row flex-nowrap">
         <!-- Menu trái -->
         <div class="col-auto px-0">
-            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100">
 
                 <!-- Logo -->
                 <img src="https://i.ibb.co/dWJ8p6q/Banner.png" alt="Banner" width="200px" class="pb-3">
@@ -46,38 +57,38 @@
                 <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="pills-tab" role="tablist">
 
                     <!-- Bang dieu khien -->
-                    <li class="nav-item">
+                    <li class="nav-item w-100">
                         <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#home" role="tab" aria-selected="true">
-                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline">Bảng điều khiển</span>
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Bảng điều khiển</span>
                         </a>
                     </li>
 
                     <!-- Dropdown -->
-                    <li class="nav-item">
+                    <li class="nav-item w-100">
                         <a href="#submenu-ecommerce" data-bs-toggle="collapse" class="nav-link align-middle">
-                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline">Thương mại điện tử</span>
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Thương mại điện tử</span>
                         </a>
                         <div class="collapse" id="submenu-ecommerce">
-                            <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                                <li><a href="#products" class="nav-link d-inline-flex align-items-center rounded mx-3" data-bs-toggle="pill" role="tab">Sản phẩm</a></li>
-                                <li><a href="#categories" class="nav-link d-inline-flex align-items-center rounded mx-3" data-bs-toggle="pill" role="tab">Danh mục</a></li>
-                                <li><a href="#orders" class="nav-link d-inline-flex align-items-center rounded mx-3" data-bs-toggle="pill" role="tab">Đơn hàng</a></li>
-                                <li><a href="#customers" class="nav-link d-inline-flex align-items-center rounded mx-3" data-bs-toggle="pill" role="tab">Khách hàng</a></li>
+                            <ul class="btn-toggle-nav list-unstyled pb-1 small">
+                                <li><a href="#products" class="nav-link d-inline-flex align-items-center rounded mx-3 w-100" data-bs-toggle="pill" role="tab">Sản phẩm</a></li>
+                                <li><a href="#categories" class="nav-link d-inline-flex align-items-center rounded mx-3 w-100" data-bs-toggle="pill" role="tab">Danh mục</a></li>
+                                <li><a href="#orders" class="nav-link d-inline-flex align-items-center rounded mx-3 w-100" data-bs-toggle="pill" role="tab">Đơn hàng</a></li>
+                                <li><a href="#customers" class="nav-link d-inline-flex align-items-center rounded mx-3 w-100" data-bs-toggle="pill" role="tab">Khách hàng</a></li>
                             </ul>
                         </div>
                     </li>
 
                     <!-- Lien he -->
-                    <li class="nav-item">
+                    <li class="nav-item w-100">
                         <a href="#contact" class="nav-link align-middle" data-bs-toggle="pill" role="tab">
-                            <i class="bi bi-person-lines-fill"></i> <span class="ms-1 d-none d-sm-inline">Liên hệ</span>
+                            <i class="bi bi-person-lines-fill"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Liên hệ</span>
                         </a>
                     </li>
 
                     <!-- Quan ly tai lieu -->
-                    <li class="nav-item">
+                    <li class="nav-item w-100">
                         <a href="#documents" class="nav-link align-middle" data-bs-toggle="pill" role="tab">
-                            <i class="bi bi-folder"></i> <span class="ms-1 d-none d-sm-inline">Quản lý tài liệu</span>
+                            <i class="bi bi-folder"></i> <span class="ms-1 d-none d-sm-inline fw-bold">Quản lý tài liệu</span>
                         </a>
                     </li>
                 </ul>
@@ -87,24 +98,23 @@
         <div class="col py-3 px-4">
             <div class="tab-content" id="pills-tabContent">
                 <!-- Header chung cho các Tab content -->
-                <div class="header container-fluid">
-                    <div class="px-0 d-flex align-items-center gap-2">
+                <div class="header container-fluid border">
+                    <div class="profile d-flex align-items-center gap-3">
                         <i class="bi bi-person-circle fs-1"></i>
-                        <div>
-                            <h5>Nguyễn Nhựt Anh</h5>
-                            <p>Quản lý 01</p>
+                        <div class="user-info">
+                            <h6 class="py-0">Nguyễn Nhựt Anh</h6>
+                            <p class="py-0">Quản lý 01</p>
                         </div>
                     </div>
                 </div>
+
                 <hr>
                 <!-- Hiển thị cho tab Dashboard -->
                 <div class="tab-pane fade show active" id="home" role="tabpanel">
                     <div class="d-flex align-items-end justify-content-between">
                         <div>
                             <h3>Chào mừng, Nguyễn Nhựt Anh!</h3>
-                            <p>Chúc bạn có một ngày làm việc hiệu quả!!</p>
                         </div>
-                        <input type="date" class="border px-3 rounded-4" style="height: 50px">
                     </div>
                     <div th:replace="tab_dashboard :: Tab_Dashboard"></div>
                 </div>
@@ -122,7 +132,7 @@
                 </div>
                 <div class="tab-pane fade" id="customers" role="tabpanel">
                     <h3>Khách hàng</h3>
-                    <p>Danh sách các khách hàng trong hệ thống.</p>
+                    <div th:replace="tab_customer :: Tab_Customer"></div>
                 </div>
                 <div class="tab-pane fade" id="contact" role="tabpanel">
                     <h3>Liên hệ</h3>

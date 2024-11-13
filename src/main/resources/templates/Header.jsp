@@ -73,7 +73,7 @@
     <nav class="menu-header">
         <ul style="list-style-type: none; display: flex; justify-content: space-between; padding: 0 200px">
             <li><a href="#">Mua sắm tất cả</a></li>
-            <li><a href="#">Categorys</a></li>
+            <li><a th:href="@{/AHC_Shoes/Categories}">Danh mục</a></li>
             <li><a href="#">Khuyến mãi/Gói sản phẩm</a></li>
             <li><a href="#">Giới thiệu</a></li>
             <li><a href="#">Dịch vụ</a></li>
